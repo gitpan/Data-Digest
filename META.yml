@@ -5,7 +5,7 @@ no_index:
     - t
 generated_by: Module::Install version 0.60
 distribution_type: module
-version: 0.01
+version: 0.02
 name: Data-Digest
 author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
 license: perl
