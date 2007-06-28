@@ -1,23 +1,26 @@
-
+--- 
+abstract: Objects that represent a digest values
+author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
+build_requires: 
+  File::Spec: 0.80
+  Test::More: 0.47
+distribution_type: module
+generated_by: Module::Install version 0.67
+license: perl
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: Data-Digest
 no_index: 
   directory: 
     - inc
     - t
-generated_by: Module::Install version 0.60
-distribution_type: module
-version: 0.02
-name: Data-Digest
-author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
-license: perl
-build_requires: 
-  Test::More: 0.47
-  File::Spec: 0.80
 requires: 
-  Params::Util: 0.10
-  IO::File: 0
-  Digest: 1.06
-  Digest::SHA: 5.34
-  Digest::MD5: 2.33
-  IO::Handle: 0
   Carp: 0
-abstract: Objects that represent a digest values
+  Digest: 1.06
+  Digest::MD5: 2.33
+  Digest::SHA: 5.34
+  IO::File: 0
+  IO::Handle: 0
+  Params::Util: 0.10
+version: 0.03

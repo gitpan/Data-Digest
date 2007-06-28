@@ -1,3 +1,4 @@
+use strict;
 use inc::Module::Install;
 
 name           'Data-Digest';
@@ -26,5 +27,4 @@ if ( can_cc() ) {
     requires   'Digest::SHA::PurePerl'   => 0;
 }
 
-auto_install;
 WriteAll;
