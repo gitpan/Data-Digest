@@ -4,11 +4,11 @@ NAME
 SYNOPSIS
       $digest = Data::Digest->new(
           'MD5.d41d8cd98f00b204e9800998ecf8427e'
-          );
+      );
   
       $digest = Data::Digest->new(
           'SHA-256' => '47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU',
-          );
+      );
   
       $digest->matches( \$data );
       $digest->matches( $filename );
@@ -32,12 +32,12 @@ METHODS
       # Two-argument digest constructor
       $digest = Data::Digest->new(
           'SHA-256' => '47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU',
-          );
+      );
   
       # One-argument digest constructor
       $digest = Data::Digest->new(
           'MD5.d41d8cd98f00b204e9800998ecf8427e'
-          );
+      );
 
     The "new" constructor takes one or two strings parameters, and creates a
     new digest object, that can be stored or used to compared the digest
@@ -105,13 +105,13 @@ SUPPORT
     For other issues, contact the author.
 
 AUTHOR
-    Adam Kennedy <cpan@ali.as>, <http://ali.as/>
+    Adam Kennedy <adamk@cpan.org>
 
 SEE ALSO
     Digest, Digest::MD5, Digest::SHA
 
 COPYRIGHT
-    Copyright 2006 Adam Kennedy. All rights reserved.
+    Copyright 2006 - 2008 Adam Kennedy.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
